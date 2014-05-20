@@ -38,9 +38,12 @@ game.resources = {
         "whitey",
         "whitey_eyes",
         "char_shadow",
+        "bikerfemale",
 
         // Baddies
         "snake",
+        "bikepathEW",
+
 
         // Collectibles
         "coin_gold",
@@ -69,9 +72,23 @@ game.resources = {
         "stairs",
         "victoria",
         /*train station */
-        "train"
+        "train",
         /* rachels_house */
         "kitchen",
+
+        /*AUC */
+        "classroom",
+
+        /*Science Park*/
+        "roadNS",
+        "roadTW",
+        "roadEW",
+        "greenbuilding",
+        "bikepathTW",
+        "auc",
+        "dorms",
+        "amolf",
+
 
         /* earth */
         "barrel",
@@ -105,7 +122,11 @@ game.resources = {
         "rachels_room",
         "rachels_house",
         "train_station",
-        "shed"
+        "shed",
+        "sciencepark",
+        "auc",
+        "empty_dorm_room",
+        "dorm_room_furnished"
     ],
 
     /* 1-channel audio. Usually sound effects. */
@@ -151,22 +172,24 @@ game.story = {
                 "Try to survive!"
             ]
         },
-        /*{
-            "image" : null,
-            "messages" : [
-                "He would tell me of the people that lived on Neverwell. How",
-                "different they were from us; Some could harness the power of",
-                "magic in their bare hands. And even the youngest weren't",
-                "afraid to go adventuring."
-            ]
-        },
         {
             "image" : null,
             "messages" : [
-                "There were monsters, treasures buried in deep caves, and",
-                "thieves hiding in the mountains. And he had seen it all."
+                "Your first task is to find the AUC dorms, your new home!",
+                "Make sure to stay of the 'red road', it's a cycle lane",
+                "and if you walk on it a biker might drive into you."
+                
             ]
         },
+        
+        {
+            "image" : null,
+            "messages" : [
+                "You can talk to people by pressing [ENTER], but not everyone",
+                "speaks English that well, so they might answer in Dutch."
+            ]
+        },
+        /*
         {
             "image" : null,
             "messages" : [
@@ -206,13 +229,10 @@ game.story = {
         {
             "image" : null,
             "messages" : [
-                "Rachel ... Rachel? Is that you, Rachel?",
-                "It isn't your time yet ...",
-                "",
-                "You're going back, now, Rachel.",
-                "This will all seem like just a dream ...",
-                "Good luck, Rachel.",
-                "I love you ...",
+                "Ohh no.. It seems like you've been seriously hit by a bike..",
+                "Or maybe you just smoked a joint too many.. ",
+                "Anyway..explore Science park a bit more",
+                "and try not to get too distracted by the temptations Amsterdam has to offer.",
                 "",
                 "Press [Enter] or [Space] to continue."
             ]

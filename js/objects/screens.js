@@ -369,7 +369,7 @@ game.TitleScreen = game.PlayScreen.extend({
         }).onComplete(function () {
             // LET'S DO IT AGAIN!
             self.loadLevel({
-                "to"        : "earth",
+                "to"        : "sciencepark",
                 "fade"      : "black",
                 "duration"  : 1000
             });
@@ -456,7 +456,7 @@ game.TitleScreen = game.PlayScreen.extend({
     "onResetEvent" : function onResetEvent() {
         // Load the level.
         this.loadLevel({
-            "to"        : "earth",
+            "to"        : "sciencepark",
             "music"     : "del_erad",
             "fade"      : "black",
             "duration"  : 2000,

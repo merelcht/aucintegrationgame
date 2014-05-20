@@ -285,7 +285,6 @@ game.PlayScreen = game.AnimatedScreen.extend({
         if (!game.stat.load("tutorial1")) {
             publish("notify", [ "Hi, I'm Rachel. You can show me where to go using the arrow keys." ]);
             publish("notify", [ "Or if you prefer, the WASD keys also work." ]);
-            publish("notify", [ "Open the chest with an action key. There may be something useful inside!" ]);
             game.stat.save("tutorial1", true);
         }
 
@@ -300,7 +299,7 @@ game.PlayScreen = game.AnimatedScreen.extend({
         }
         else {
             this.loadLevel({
-                "to"        : "rachels_house",
+                "to"        : "train_station",
                 "music"     : "bells",
                 "fadeOut"   : "black",
                 "duration"  : 1000
@@ -370,7 +369,7 @@ game.TitleScreen = game.PlayScreen.extend({
         }).onComplete(function () {
             // LET'S DO IT AGAIN!
             self.loadLevel({
-                "to"        : "earth",
+                "to"        : "sciencepark",
                 "fade"      : "black",
                 "duration"  : 1000
             });
@@ -457,7 +456,7 @@ game.TitleScreen = game.PlayScreen.extend({
     "onResetEvent" : function onResetEvent() {
         // Load the level.
         this.loadLevel({
-            "to"        : "earth",
+            "to"        : "sciencepark",
             "music"     : "del_erad",
             "fade"      : "black",
             "duration"  : 2000,

@@ -62,22 +62,10 @@ game.NPCEntities = {
                 "What's up?",
                 "I'm the huisbaas, welcome to your  new home! ",
                 "You'll have to furnish your room yourself",
-                "But first you should go to AUC and collect your welcome package."
+                "But first you should go to AUC and listen to the Dean's welcome speech."
             ]);
         }
     }),
-
-    /* Biker female 
-    "Biker_female" : NPC.extend({
-        "init": function init(x, y, settings) {
-            this.value = 1000;
-            this.parent(x, y, settings);
-
-            // Adjust collision bounding box.
-            this.adjustBoxShape(0, -10, 25, 20);
-        }
-    }),
-    */
     
     /* Jessica */
     "Jessica" : game.NPC.extend({
@@ -101,7 +89,9 @@ game.NPCEntities = {
 
             if (!game.HUD.HUDItems.inventory.hasItem("book")) {
                 game.dialog([
-                    "Uhm.. wie ben jij? En waarom ben je in mijn kamer??" 
+                    "Uhm.. wie ben jij? En waarom ben je in mijn kamer??", "Oh, you don't speak Dutch.",
+                    "Are you an AUC student?",
+                    "This building is not for AUC students!" 
                 ]);
             }
             else {
@@ -176,10 +166,14 @@ game.NPCEntities = {
 
         "interact" : function interact(actor, callback) {
             game.dialog([
-                "Hi my lovely Excellent and Diverse students!",
-                "this will be a year full of dissapointments",
-                "but for some of you, you will excell and a good future is ahead of you!",
-                "don't do drugs!"
+                "Welcome to AUC my lovely Excellent and Diverse students!",
+                "I hope you have already had the chance to explore Science Park a bit and found your new home, the dorms.",
+                "I am so happy that you diverse people have chosen to study at this excellent university in the global city of Amsterdam.",
+                "You will learn a lot about a diverse range of excellent courses covering topics from all over the globe.",
+                "At times, this year will be difficult for you. You are all far away from home, and will probably miss your family.",
+                "But this is also the time for you to excell and a good future is ahead of you!",
+                "I hope you will all enjoy your excellent and diverse lives in global Amsterdam and wish you luck with exploring your new home.",
+                "For now, the game ends here. I hope you enjoyed it so far, and perhaps more will come in the future." 
             ]);
         }
     })

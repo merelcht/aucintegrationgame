@@ -397,7 +397,7 @@
   <object name="exit" x="320" y="160" width="32" height="32">
    <properties>
     <property name="fade" value="black"/>
-    <property name="location" value="879, 835"/>
+    <property name="location" value="735, 828"/>
     <property name="to" value="sciencepark"/>
    </properties>
   </object>
