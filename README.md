@@ -1,4 +1,6 @@
-Neverwell Moor
+This AUC integration game is an adapted version of the open source game Neverwell Moor. This game was made for the Games & Learning course at Amsterdam University College.
+
+The game we designed is aimed at new AUC students to help them get to know Science Park before they arrive in Amsterdam and to teach them a bit about Dutch culture. Normally, one could use Google maps to ‘walk around’ an area and to get to know an unfamiliar place before arriving there. This is a rather passive and boring way to discover a new place online and trough Google maps you will not learn anything about the culture of the place you are going to. The game enables players to walk around a virtual Science Park, and in that way, help them become familiar with their new environment. Furthermore, through the tasks the players have to perform and through game characters the players learn some things about Dutch language, culture and society. The following information is about the Neverwell Moor game on which our game is based. 
 ==============
 
 An entry for the Liberated Pixel Cup 2012
